@@ -1,6 +1,6 @@
 {
-  "name": "nuwber/rabbitevents",
-  "description": "The Nuwber RabbitEvents package",
+  "name": "hweihwang/rabbitevents",
+  "description": "RabbitEvents package",
   "keywords": ["laravel", "rabbitmq", "events", "broadcast", "publish", "pub", "sub"],
   "type": "library",
   "license": "MIT",
@@ -11,13 +11,13 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^8.1",
     "ext-json": "*",
-    "enqueue/amqp-lib": "^0.10",
-    "illuminate/support": "^8.0|^9.0",
-    "illuminate/events": "^8.0|^9.0",
-    "illuminate/console": "^8.0|^9.0",
-    "illuminate/container": "^8.0|^9.0"
+    "enqueue/amqp-lib": "^0.10.9",
+    "illuminate/support": "^9.16.0",
+    "illuminate/events": "^9.16.0",
+    "illuminate/console": "^9.16.0",
+    "illuminate/container": "^9.16.0"
   },
   "replace": {
     "rabbitevents/foundation": "self.version",
@@ -25,9 +25,7 @@
     "rabbitevents/listener": "self.version"
   },
   "require-dev": {
-    "mockery/mockery": "^1.4",
-    "phpunit/phpunit": "^9.0",
-    "vlucas/phpdotenv": "^v5.4.1"
+
   },
   "autoload": {
     "psr-4": {
@@ -39,7 +37,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "RabbitEvents\\Tests\\": "tests/"
+
     }
   },
   "extra": {
